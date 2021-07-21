@@ -67,3 +67,16 @@ body {
   width: 70px;
   left: 0;
 }
+
+.skills-list {
+  background: #ebf0ee;
+}
+
+.skills-image {
+  width: 50px;
+}
+
+.skills-text {
+  color: #344563;
+}
+
