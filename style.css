@@ -11,3 +11,18 @@ body {
 .logo {
   color: #283;
 }
+
+.big-heading {
+  color: #172b4d;
+}
+
+/* .heading {
+  width: 372px;
+} */
+
+.first-section {
+  background-image: url(./images/bg-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
