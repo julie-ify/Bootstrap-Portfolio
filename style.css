@@ -11,8 +11,35 @@ body {
   color: #283;
 }
 
-.big-heading {
+.big-heading,
+.md-heading {
   color: #172b4d;
+}
+
+.md-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -12.8px;
+  left: 50%;
+  background: #36b37e;
+  width: 48px;
+  height: 4px;
+  transform: translate(-50%);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 90%;
+}
+
+.empty-div {
+  height: 252px;
+}
+
+.card-title {
+  color: #3a4a42;
 }
 
 /* .heading {
