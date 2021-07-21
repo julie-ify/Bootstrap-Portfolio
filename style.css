@@ -80,3 +80,14 @@ body {
 .skills-text {
   color: #344563;
 }
+
+@media (min-width: 992px) {
+  .md-heading::after {
+    display: none;
+  }
+
+  /* .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } */
+}
