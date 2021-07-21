@@ -12,7 +12,8 @@ body {
 }
 
 .big-heading,
-.md-heading {
+.md-heading,
+.about-heading {
   color: #172b4d;
 }
 
@@ -51,4 +52,18 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-section {
+  margin: 70px 0;
+}
+
+.frame {
+  width: 70px;
+  right: 0;
+}
+
+.frame-2 {
+  width: 70px;
+  left: 0;
 }
