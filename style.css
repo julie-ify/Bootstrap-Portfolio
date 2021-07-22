@@ -7,10 +7,6 @@ body {
   color: #172b4d;
 }
 
-.logo {
-  color: #283;
-}
-
 .big-heading,
 .md-heading,
 .md-heading-2,
@@ -43,10 +39,6 @@ body {
 .card-title {
   color: #3a4a42;
 }
-
-/* .heading {
-  width: 372px;
-} */
 
 .first-section {
   background-image: url(./images/bg-img.png);
@@ -85,9 +77,4 @@ body {
   .md-heading::after {
     display: none;
   }
-
-  /* .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  } */
 }
