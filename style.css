@@ -73,6 +73,12 @@ body {
   color: #344563;
 }
 
+.btn-close {
+  right: 5px;
+  top: 45px;
+  width: 100px;
+}
+
 @media (min-width: 992px) {
   .md-heading::after {
     display: none;

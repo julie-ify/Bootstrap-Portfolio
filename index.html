@@ -174,7 +174,47 @@
                     Html
                   </li>
                 </ul>
-                <a href="#" class="btn btn-success mb-4">See Project</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  See Project
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class=" w-100">
+                        <div><img src="./images/mobile-modal-img.png" alt="Modal-1" class="w-100 position-relative p-3"></div>
+                        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body p-3">
+                        <h5 class="fw-bold fs-2 my-3 skills-text text-start w-75">Keeping track of hundreds of
+                          components</h5>
+                        <ul class="card-text m-0 p-0 mb-3 text-start">
+                          <li class="d-inline-block me-2 small bg-light p-2 rounded">
+                            Ruby on rails
+                          </li>
+                          <li class="d-inline-block me-2 small bg-light p-2 rounded">
+                            Css
+                          </li>
+                          <li class="d-inline-block me-2 small bg-light p-2 rounded">
+                            JavaScript
+                          </li>
+                          <li class="d-inline-block small bg-light p-2 rounded mt-3">
+                            Html
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <p class="text-start mb-3 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                      </div>
+                      <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success p-3 me-2"> See Live <i class="fas fa-external-link-alt ms-2"></i></button>
+                        <button type="button" class="btn btn-success p-3">See Source <i class="fab fa-github ms-2"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
